@@ -5,7 +5,7 @@
 CircleCI上で[Node.js (LTS)](https://nodejs.org/ja/) とSendGrid公式ライブラリ(最新版)をインストールし、サンプルコードの動作検証をします。
 具体的には、サンプルコードの最後でHTTPレスポンスコード202が返ってくればテスト成功とみなします。
 
-- sendgridjp-nodejs-example.js: [サンプルコード](https://github.com/SendGridJP/sendgridjp-nodejs-example/blob/master/sendgridjp-nodejs-example.js)をモジュール化したもの
+- sendgridjp-nodejs-example.js: [サンプルコード](https://github.com/SendGridJP/sendgridjp-nodejs-example/blob/master/sendgrid-nodejs-example.js)をモジュール化したもの
 - sendgridjp-nodejs-example.test.js: 上記をJestでテストするコード
 - .circleci/config.yml: CircleCI設定（環境設定、環境変数設定、用いたバージョンの表示、テスト。毎月2日の午前9時に定期実行されます。）
 
